@@ -48,10 +48,10 @@ I have also run the app in Docker by issuing the following command:
 
 Spin up the Docker desktop demon
 
-# Build image
+Build image
 docker build -t cake-api .
 
-# Run container
+Run container
 docker run -p 8000:8000 cake-api
 
 By entering https://localhost:8000/docs in the Chrome browser, it directed me to the Swagger frontend, I could do exactly what I have done in point 4 above.
